@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="204f9921-cbc3-4b13-a1c3-942dda7d9600" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Common Interview Prep/jack/com/questions/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Common Interview Prep/jack/com/questions/Sorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Common Interview Prep/test/jack/com/questions/Sorting/InsertionSortTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/jack/com/questions/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jack/com/questions/Sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/jack/com/questions/SortingTests/InsertionSortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/jack/com/questions/SortingTests/InsertionSortTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Common Interview Prep">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="main.jack.com.questions.Main" />
-      <module name="Common Interview Prep" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.InsertionSortTests">
     <configuration name="All in Common Interview Prep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Common Interview Prep" />
       <option name="PACKAGE_NAME" value="" />
@@ -124,15 +118,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InsertionSortTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Common Interview Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jack.com.questions.SortingTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jack.com.questions.SortingTests" />
+      <option name="MAIN_CLASS_NAME" value="jack.com.questions.SortingTests.InsertionSortTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.BubbleSortTest" />
       <item itemvalue="JUnit.BubbleSortTests" />
       <item itemvalue="JUnit.CheckArrayForSumTest" />
       <item itemvalue="JUnit.All in Common Interview Prep" />
+      <item itemvalue="JUnit.InsertionSortTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InsertionSortTests" />
         <item itemvalue="JUnit.All in Common Interview Prep" />
         <item itemvalue="JUnit.CheckArrayForSumTest" />
         <item itemvalue="JUnit.BubbleSortTests" />
@@ -162,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578849383933</updated>
-      <workItem from="1578849388167" duration="7501000" />
+      <workItem from="1578849388167" duration="9080000" />
     </task>
     <servers />
   </component>
@@ -178,22 +188,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="404" y="247" width="500" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578855708692" />
-    <state width="1237" height="124" key="GridCell.Tab.0.bottom" timestamp="1578856722914">
+    <state width="1237" height="168" key="GridCell.Tab.0.bottom" timestamp="1578858482750">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="124" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578856722914" />
-    <state width="1237" height="124" key="GridCell.Tab.0.center" timestamp="1578856722913">
+    <state width="1237" height="168" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578858482750" />
+    <state width="1237" height="168" key="GridCell.Tab.0.center" timestamp="1578858482750">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="124" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578856722913" />
-    <state width="1237" height="124" key="GridCell.Tab.0.left" timestamp="1578856722913">
+    <state width="1237" height="168" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578858482750" />
+    <state width="1237" height="168" key="GridCell.Tab.0.left" timestamp="1578858482750">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="124" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578856722913" />
-    <state width="1237" height="124" key="GridCell.Tab.0.right" timestamp="1578856722914">
+    <state width="1237" height="168" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578858482750" />
+    <state width="1237" height="168" key="GridCell.Tab.0.right" timestamp="1578858482750">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="124" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578856722914" />
+    <state width="1237" height="168" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578858482750" />
     <state x="452" y="140" key="chooseDestDirectoryDialog" timestamp="1578856943730">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
