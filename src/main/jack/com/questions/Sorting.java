@@ -1,4 +1,4 @@
-package main.jack.com.questions;
+package jack.com.questions;
 
 public class Sorting {
 
@@ -48,7 +48,6 @@ public class Sorting {
                 }
             }
         }
-
     }
 
 }

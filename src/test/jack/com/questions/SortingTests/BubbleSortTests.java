@@ -1,6 +1,6 @@
-package test.jack.com.questions.Sorting;
+package jack.com.questions.SortingTests;
 
-import main.jack.com.questions.Sorting;
+import jack.com.questions.Sorting;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
