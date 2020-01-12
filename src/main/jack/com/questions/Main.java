@@ -1,4 +1,4 @@
-package com.jack;
+package main.jack.com.questions;
 
 public class Main {
 
