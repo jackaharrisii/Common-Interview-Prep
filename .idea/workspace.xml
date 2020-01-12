@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="204f9921-cbc3-4b13-a1c3-942dda7d9600" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jack/com/questions/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/jack/com/questions/Sorting/SortingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/jack/com/questions/CheckArrayForSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/jack/com/questions/CheckArrayForSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Common Interview Prep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Common Interview Prep.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jack/com/questions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Common Interview Prep/test/jack/com/questions/Sorting/BubbleSortTests/SortingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jack/com/questions/InsertionSortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/jack/com/questions/Sorting/InsertionSortTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +52,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="jack.com.questions" />
       <recent name="main.jack.com.questions" />
       <recent name="main.jack.com.questions.Sorting" />
       <recent name="com.jack.Sorting" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="test.jack.com.questions.Sorting" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortingTest">
+  <component name="RunManager" selected="JUnit.CheckArrayForSumTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="main.jack.com.questions.Main" />
       <module name="Common Interview Prep" />
@@ -76,7 +79,7 @@
       <module name="Common Interview Prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.jack.com.questions.Sorting.BubbleSortTests.*" />
+          <option name="PATTERN" value="test.jack.com.questions.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,16 +90,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BubbleSortTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Common Interview Prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.jack.com.questions.Sorting.BubbleSortTests.*" />
+          <option name="PATTERN" value="test.jack.com.questions.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.jack.com.questions.Sorting.BubbleSortTests" />
-      <option name="MAIN_CLASS_NAME" value="test.jack.com.questions.Sorting.BubbleSortTests.SortingTest" />
+      <option name="PACKAGE_NAME" value="test.jack.com.questions.Sorting" />
+      <option name="MAIN_CLASS_NAME" value="test.jack.com.questions.Sorting.BubbleSortTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckArrayForSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Common Interview Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jack.com.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jack.com.questions" />
+      <option name="MAIN_CLASS_NAME" value="jack.com.questions.CheckArrayForSumTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +123,13 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.BubbleSortTest" />
-      <item itemvalue="JUnit.SortingTest" />
+      <item itemvalue="JUnit.BubbleSortTests" />
+      <item itemvalue="JUnit.CheckArrayForSumTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SortingTest" />
+        <item itemvalue="JUnit.CheckArrayForSumTest" />
+        <item itemvalue="JUnit.BubbleSortTests" />
         <item itemvalue="JUnit.BubbleSortTest" />
       </list>
     </recent_temporary>
@@ -136,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578849383933</updated>
-      <workItem from="1578849388167" duration="6130000" />
+      <workItem from="1578849388167" duration="7064000" />
     </task>
     <servers />
   </component>
@@ -148,30 +168,34 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578851794509" />
-    <state width="1237" height="124" key="GridCell.Tab.0.bottom" timestamp="1578855581419">
+    <state x="404" y="247" width="500" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578855708692">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="124" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578855581419" />
-    <state width="1237" height="124" key="GridCell.Tab.0.center" timestamp="1578855581419">
+    <state x="404" y="247" width="500" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578855708692" />
+    <state width="1237" height="124" key="GridCell.Tab.0.bottom" timestamp="1578856205269">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="124" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578855581419" />
-    <state width="1237" height="124" key="GridCell.Tab.0.left" timestamp="1578855581419">
+    <state width="1237" height="124" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578856205269" />
+    <state width="1237" height="124" key="GridCell.Tab.0.center" timestamp="1578856205269">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="124" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578855581419" />
-    <state width="1237" height="124" key="GridCell.Tab.0.right" timestamp="1578855581419">
+    <state width="1237" height="124" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578856205269" />
+    <state width="1237" height="124" key="GridCell.Tab.0.left" timestamp="1578856205269">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="124" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578855581419" />
+    <state width="1237" height="124" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578856205269" />
+    <state width="1237" height="124" key="GridCell.Tab.0.right" timestamp="1578856205269">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="124" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578856205269" />
     <state x="376" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578850773923">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="376" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578850773923" />
-    <state x="412" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578852738395">
+    <state x="412" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578856082652">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="412" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578852738395" />
+    <state x="412" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578856082652" />
     <state x="303" y="41" key="search.everywhere.popup" timestamp="1578849954759">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

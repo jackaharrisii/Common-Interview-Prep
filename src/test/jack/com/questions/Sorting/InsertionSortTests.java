@@ -1,4 +1,4 @@
-package main.jack.com.questions;
+package test.jack.com.questions.Sorting;
 
 import org.junit.After;
 import org.junit.Before;
