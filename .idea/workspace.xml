@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="204f9921-cbc3-4b13-a1c3-942dda7d9600" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Common Interview Prep/jack/com/questions/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Common Interview Prep/jack/com/questions/Sorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Common Interview Prep/test/jack/com/questions/Sorting/InsertionSortTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jack/com/questions/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jack/com/questions/Sorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/jack/com/questions/SortingTests/InsertionSortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/jack/com/questions/SortingTests/InsertionSortTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Common Interview Prep/jack/com/questions/CheckArrayForSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Common Interview Prep/jack/com/questions/CheckArrayForSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Common Interview Prep/jack/com/questions/CheckArrayForSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Common Interview Prep/jack/com/questions/CheckArrayForSumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jack/com/questions/CheckArrayForSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jack/com/questions/CheckArrayForSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/jack/com/questions/CheckArrayForSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/jack/com/questions/CheckArrayForSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,41 +64,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InsertionSortTests">
+  <component name="RunManager" selected="JUnit.CheckArrayForSumTest">
     <configuration name="All in Common Interview Prep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Common Interview Prep" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Common Interview Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.jack.com.questions.Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.jack.com.questions.Sorting" />
-      <option name="MAIN_CLASS_NAME" value="test.jack.com.questions.Sorting.BubbleSortTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BubbleSortTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Common Interview Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.jack.com.questions.Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.jack.com.questions.Sorting" />
-      <option name="MAIN_CLASS_NAME" value="test.jack.com.questions.Sorting.BubbleSortTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,6 +84,38 @@
       <option name="PACKAGE_NAME" value="jack.com.questions" />
       <option name="MAIN_CLASS_NAME" value="jack.com.questions.CheckArrayForSumTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckArrayForSumTest.return_null_when_value_isnt_there_using_hashtable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Common Interview Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jack.com.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jack.com.questions" />
+      <option name="MAIN_CLASS_NAME" value="jack.com.questions.CheckArrayForSumTest" />
+      <option name="METHOD_NAME" value="return_null_when_value_isnt_there_using_hashtable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckArrayForSumTest.short_array_with_single_loop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Common Interview Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jack.com.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jack.com.questions" />
+      <option name="MAIN_CLASS_NAME" value="jack.com.questions.CheckArrayForSumTest" />
+      <option name="METHOD_NAME" value="short_array_with_single_loop" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,19 +136,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BubbleSortTest" />
-      <item itemvalue="JUnit.BubbleSortTests" />
       <item itemvalue="JUnit.CheckArrayForSumTest" />
       <item itemvalue="JUnit.All in Common Interview Prep" />
       <item itemvalue="JUnit.InsertionSortTests" />
+      <item itemvalue="JUnit.CheckArrayForSumTest.short_array_with_single_loop" />
+      <item itemvalue="JUnit.CheckArrayForSumTest.return_null_when_value_isnt_there_using_hashtable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckArrayForSumTest" />
+        <item itemvalue="JUnit.CheckArrayForSumTest.return_null_when_value_isnt_there_using_hashtable" />
+        <item itemvalue="JUnit.CheckArrayForSumTest.short_array_with_single_loop" />
         <item itemvalue="JUnit.InsertionSortTests" />
         <item itemvalue="JUnit.All in Common Interview Prep" />
-        <item itemvalue="JUnit.CheckArrayForSumTest" />
-        <item itemvalue="JUnit.BubbleSortTests" />
-        <item itemvalue="JUnit.BubbleSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578849383933</updated>
-      <workItem from="1578849388167" duration="9080000" />
+      <workItem from="1578849388167" duration="13315000" />
     </task>
     <servers />
   </component>
@@ -188,22 +190,38 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="404" y="247" width="500" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578855708692" />
-    <state width="1237" height="168" key="GridCell.Tab.0.bottom" timestamp="1578858482750">
+    <state width="1237" height="168" key="GridCell.Tab.0.bottom" timestamp="1578865838484">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578858482750" />
-    <state width="1237" height="168" key="GridCell.Tab.0.center" timestamp="1578858482750">
+    <state width="1237" height="168" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865838484" />
+    <state width="1237" height="168" key="GridCell.Tab.0.center" timestamp="1578865838483">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578858482750" />
-    <state width="1237" height="168" key="GridCell.Tab.0.left" timestamp="1578858482750">
+    <state width="1237" height="168" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865838483" />
+    <state width="1237" height="168" key="GridCell.Tab.0.left" timestamp="1578865838483">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578858482750" />
-    <state width="1237" height="168" key="GridCell.Tab.0.right" timestamp="1578858482750">
+    <state width="1237" height="168" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865838483" />
+    <state width="1237" height="168" key="GridCell.Tab.0.right" timestamp="1578865838483">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578858482750" />
+    <state width="1237" height="168" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865838483" />
+    <state width="1237" height="135" key="GridCell.Tab.1.bottom" timestamp="1578865603494">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="135" key="GridCell.Tab.1.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865603494" />
+    <state width="1237" height="135" key="GridCell.Tab.1.center" timestamp="1578865603494">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="135" key="GridCell.Tab.1.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865603494" />
+    <state width="1237" height="135" key="GridCell.Tab.1.left" timestamp="1578865603494">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="135" key="GridCell.Tab.1.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865603494" />
+    <state width="1237" height="135" key="GridCell.Tab.1.right" timestamp="1578865603494">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="135" key="GridCell.Tab.1.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865603494" />
     <state x="452" y="140" key="chooseDestDirectoryDialog" timestamp="1578856943730">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -220,5 +238,36 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="303" y="41" key="search.everywhere.popup/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578849954759" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/jack/com/questions/CheckArrayForSum.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/jack/com/questions/CheckArrayForSum.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/jack/com/questions/CheckArrayForSum.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/jack/com/questions/CheckArrayForSumTest.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/jack/com/questions/CheckArrayForSumTest.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

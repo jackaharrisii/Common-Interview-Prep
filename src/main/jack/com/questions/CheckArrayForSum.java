@@ -23,12 +23,29 @@ public class CheckArrayForSum {
 
     public Integer[] findIndexesWithHashTable(Integer[] nums, Integer target){
         Hashtable<Integer,Integer> numTable = new Hashtable<>();
-        for (int i = 0; i < nums.length; i++){
-            numTable.put(nums[i], i);
-        }
+        // don't build the hashtable first - if you do, and the target is even, it can erroneously return the index of terget/2 for both values if it finds that in nums
+//        for (int i = 0; i < nums.length; i++){
+//            numTable.put(nums[i], i);
+//        }
         for (int j = 0; j < nums.length; j++){
             int desiredValue = target - nums[j];
-            if (numTable.containsKey(desiredValue)) return new Integer[]{j, numTable.get(desiredValue)};
+            // (putting "numTable.put(nums[j], j);" here will have the same result as the above commented out code
+            if (numTable.containsKey(desiredValue)) return new Integer[]{numTable.get(desiredValue), j};
+            numTable.put(nums[j], j);  // you must only insert the value into the hashtable after the check
+        }
+        return null;
+    }
+
+    // only works with pre-sorted array
+    public Integer[] findIndexesWithSingleLoop(Integer[] nums, Integer target){
+        int i = 0;
+        int j = nums.length-1;
+        while (j > i) {
+            while (nums[i] + nums[j] != target) {
+                if (nums[i] + nums[j] > target) j--;
+                else if (nums[i] + nums[j] < target) i++;
+            }
+            return new Integer[]{i, j};
         }
         return null;
     }
