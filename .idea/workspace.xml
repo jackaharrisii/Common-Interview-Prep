@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="204f9921-cbc3-4b13-a1c3-942dda7d9600" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/jack/com/questions/RectanglesOnAPlane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/jack/com/questions/SortStringNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/jack/com/questions/SortStringNumbersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Common Interview Prep/jack/com/questions/CheckArrayForSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Common Interview Prep/jack/com/questions/CheckArrayForSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Common Interview Prep/jack/com/questions/CheckArrayForSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Common Interview Prep/jack/com/questions/CheckArrayForSumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jack/com/questions/CheckArrayForSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jack/com/questions/CheckArrayForSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/jack/com/questions/CheckArrayForSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/jack/com/questions/CheckArrayForSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,15 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CheckArrayForSumTest">
-    <configuration name="All in Common Interview Prep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Common Interview Prep" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SortStringNumbersTest">
     <configuration name="CheckArrayForSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Common Interview Prep" />
       <extension name="coverage">
@@ -120,35 +112,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortStringNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Common Interview Prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jack.com.questions.SortingTests.*" />
+          <option name="PATTERN" value="jack.com.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jack.com.questions.SortingTests" />
-      <option name="MAIN_CLASS_NAME" value="jack.com.questions.SortingTests.InsertionSortTests" />
+      <option name="PACKAGE_NAME" value="jack.com.questions" />
+      <option name="MAIN_CLASS_NAME" value="jack.com.questions.SortStringNumbersTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortStringNumbersTest.sort_a_normal_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Common Interview Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jack.com.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jack.com.questions" />
+      <option name="MAIN_CLASS_NAME" value="jack.com.questions.SortStringNumbersTest" />
+      <option name="METHOD_NAME" value="sort_a_normal_list" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.CheckArrayForSumTest" />
-      <item itemvalue="JUnit.All in Common Interview Prep" />
-      <item itemvalue="JUnit.InsertionSortTests" />
       <item itemvalue="JUnit.CheckArrayForSumTest.short_array_with_single_loop" />
       <item itemvalue="JUnit.CheckArrayForSumTest.return_null_when_value_isnt_there_using_hashtable" />
+      <item itemvalue="JUnit.SortStringNumbersTest" />
+      <item itemvalue="JUnit.SortStringNumbersTest.sort_a_normal_list" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SortStringNumbersTest" />
+        <item itemvalue="JUnit.SortStringNumbersTest.sort_a_normal_list" />
         <item itemvalue="JUnit.CheckArrayForSumTest" />
         <item itemvalue="JUnit.CheckArrayForSumTest.return_null_when_value_isnt_there_using_hashtable" />
         <item itemvalue="JUnit.CheckArrayForSumTest.short_array_with_single_loop" />
-        <item itemvalue="JUnit.InsertionSortTests" />
-        <item itemvalue="JUnit.All in Common Interview Prep" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578849383933</updated>
-      <workItem from="1578849388167" duration="13315000" />
+      <workItem from="1578849388167" duration="17613000" />
     </task>
     <servers />
   </component>
@@ -190,38 +198,38 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="404" y="247" width="500" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578855708692" />
-    <state width="1237" height="168" key="GridCell.Tab.0.bottom" timestamp="1578865838484">
+    <state width="1237" height="191" key="GridCell.Tab.0.bottom" timestamp="1578870414691">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865838484" />
-    <state width="1237" height="168" key="GridCell.Tab.0.center" timestamp="1578865838483">
+    <state width="1237" height="191" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578870414691" />
+    <state width="1237" height="191" key="GridCell.Tab.0.center" timestamp="1578870414691">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865838483" />
-    <state width="1237" height="168" key="GridCell.Tab.0.left" timestamp="1578865838483">
+    <state width="1237" height="191" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578870414691" />
+    <state width="1237" height="191" key="GridCell.Tab.0.left" timestamp="1578870414691">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865838483" />
-    <state width="1237" height="168" key="GridCell.Tab.0.right" timestamp="1578865838483">
+    <state width="1237" height="191" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578870414691" />
+    <state width="1237" height="191" key="GridCell.Tab.0.right" timestamp="1578870414691">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865838483" />
-    <state width="1237" height="135" key="GridCell.Tab.1.bottom" timestamp="1578865603494">
+    <state width="1237" height="191" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578870414691" />
+    <state width="1237" height="287" key="GridCell.Tab.1.bottom" timestamp="1578870351926">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.1.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865603494" />
-    <state width="1237" height="135" key="GridCell.Tab.1.center" timestamp="1578865603494">
+    <state width="1237" height="287" key="GridCell.Tab.1.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578870351926" />
+    <state width="1237" height="287" key="GridCell.Tab.1.center" timestamp="1578870351926">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.1.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865603494" />
-    <state width="1237" height="135" key="GridCell.Tab.1.left" timestamp="1578865603494">
+    <state width="1237" height="287" key="GridCell.Tab.1.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578870351926" />
+    <state width="1237" height="287" key="GridCell.Tab.1.left" timestamp="1578870351925">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.1.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865603494" />
-    <state width="1237" height="135" key="GridCell.Tab.1.right" timestamp="1578865603494">
+    <state width="1237" height="287" key="GridCell.Tab.1.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578870351925" />
+    <state width="1237" height="287" key="GridCell.Tab.1.right" timestamp="1578870351926">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.1.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578865603494" />
+    <state width="1237" height="287" key="GridCell.Tab.1.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578870351926" />
     <state x="452" y="140" key="chooseDestDirectoryDialog" timestamp="1578856943730">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -230,10 +238,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="376" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578850773923" />
-    <state x="412" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578856082652">
+    <state x="412" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578867051558">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="412" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578856082652" />
+    <state x="412" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578867051558" />
     <state x="303" y="41" key="search.everywhere.popup" timestamp="1578849954759">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -243,21 +251,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/jack/com/questions/CheckArrayForSum.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/jack/com/questions/CheckArrayForSum.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/jack/com/questions/CheckArrayForSum.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/jack/com/questions/CheckArrayForSumTest.java</url>
           <line>133</line>
           <option name="timeStamp" value="4" />
@@ -266,6 +259,36 @@
           <url>file://$PROJECT_DIR$/src/test/jack/com/questions/CheckArrayForSumTest.java</url>
           <line>135</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/jack/com/questions/SortStringNumbers.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/jack/com/questions/SortStringNumbers.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/jack/com/questions/SortStringNumbers.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/jack/com/questions/SortStringNumbers.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/jack/com/questions/SortStringNumbers.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/jack/com/questions/SortStringNumbers.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
