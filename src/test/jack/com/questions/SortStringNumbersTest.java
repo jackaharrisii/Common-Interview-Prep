@@ -63,10 +63,32 @@ public class SortStringNumbersTest {
     }
 
     @Test
-    public void sort_a_list_that_includes_negative_numbers(){
+    public void sort_a_list_that_includes_one_negative_number(){
+        // Given
+        String[] testArray = new String[]{"1", "5", "15", "-9", "4"};
+        String[] expected = new String[]{"-9", "1", "4", "5", "15"};
+        // When
+        sort.sortStringNumbers(testArray);
+        // Then
+        assertArrayEquals(expected,testArray);
+    }
+
+    @Test
+    public void sort_a_list_that_includes_multiple_negative_numbers(){
         // Given
         String[] testArray = new String[]{"1", "-5", "15", "-9", "4"};
         String[] expected = new String[]{"-9", "-5", "1", "4", "15"};
+        // When
+        sort.sortStringNumbers(testArray);
+        // Then
+        assertArrayEquals(expected,testArray);
+    }
+
+    @Test
+    public void sort_a_list_that_includes_negative_numbers_with_leading_zeroes(){
+        // Given
+        String[] testArray = new String[]{"1", "-005", "15", "-9", "4"};
+        String[] expected = new String[]{"-9", "-005", "1", "4", "15"};
         // When
         sort.sortStringNumbers(testArray);
         // Then
@@ -95,9 +117,6 @@ public class SortStringNumbersTest {
         assertArrayEquals(expected,testArray);
     }
 
-
-
-
     /*
      SUB-METHOD TESTS:
      */
@@ -111,6 +130,72 @@ public class SortStringNumbersTest {
         sort.bubbleSortByStringLength(testArray);
         // Then
         assertArrayEquals(expected,testArray);
+    }
+
+    @Test
+    public void removeLeadingZeroes_normal(){
+        // Given
+        String test = "007";
+        String expected = "7";
+        // When
+        test = sort.removeLeadingZeroes(test);
+        // Then
+        assertEquals(expected, test);
+    }
+
+    @Test
+    public void removeLeadingZeroes_when_none_exist(){
+        // Given
+        String test = "7";
+        String expected = "7";
+        // When
+        test = sort.removeLeadingZeroes(test);
+        // Then
+        assertEquals(expected, test);
+    }
+
+    @Test
+    public void removeLeadingZeroes_from_000(){
+        // Given
+        String test = "000";
+        String expected = "0";
+        // When
+        test = sort.removeLeadingZeroes(test);
+        // Then
+        assertEquals(expected, test);
+    }
+
+    @Test
+    public void removeLeadingZeroes_from_0(){
+        // Given
+        String test = "0";
+        String expected = "0";
+        // When
+        test = sort.removeLeadingZeroes(test);
+        // Then
+        assertEquals(expected, test);
+    }
+
+    @Test
+    public void removeLeadingZeroes_from_empty_string(){
+        // Given
+        String test = "";
+        String expected = "0";
+        // When
+        test = sort.removeLeadingZeroes(test);
+        // Then
+        assertEquals(expected, test);
+    }
+
+    @Test
+    public void removeLeadingZeroes_from_negative_number(){
+        // Given
+        String test = "-007";
+        String expected = "-7";
+        // When
+        test = sort.removeLeadingZeroes(test);
+        // Then
+        assertEquals(expected, test);
     }
 
 }

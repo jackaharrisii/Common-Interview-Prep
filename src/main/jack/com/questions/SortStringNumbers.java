@@ -37,12 +37,47 @@ public class SortStringNumbers {
     }
 
     public boolean currentIsLessThanPrevious(String current, String previous){
-        // compare lengths
-        if (current.length() > previous.length()) return false;
-        else if (current.length() < previous.length()) return true;
-        // if the same length, compare values
-        if (current.compareTo(previous) < 0) return true;
-        else return false;
+        // remove leading zeroes
+        current = removeLeadingZeroes(current);
+        previous = removeLeadingZeroes(previous);
+        // if one number is negative and the other is positive
+        if (current.charAt(0) == '-' && previous.charAt(0) != '-') return true;
+        if (current.charAt(0) != '-' && previous.charAt(0) == '-') return false;
+        // if both numbers are negative
+        if (current.charAt(0) == '-' && previous.charAt(0) == '-'){
+            // compare lengths
+            if (current.length() > previous.length()) return true;
+            else if (current.length() < previous.length()) return false;
+            // if the same length, compare values
+            if (current.compareTo(previous) < 0) return false;
+            else return true;
+        }
+        // if both numbers are positive
+        if (current.charAt(0) != '-' && previous.charAt(0) != '-') {
+            // compare lengths
+            if (current.length() > previous.length()) return false;
+            else if (current.length() < previous.length()) return true;
+            // if the same length, compare values
+            if (current.compareTo(previous) < 0) return true;
+            else return false;
+        }
+        return false;
+    }
+
+    public String removeLeadingZeroes(String input){
+        boolean isNegative = false;
+        if (input.length() == 0) return "0";
+        if (input.charAt(0) == '-') {
+            input = input.substring(1, input.length());
+            isNegative = true;
+        }
+        for (int i = 0; i < input.length(); i++){
+            if (input.charAt(i) != '0') {
+                if (isNegative) return "-" + input.substring(i, input.length());
+                return input.substring(i, input.length());
+            }
+        }
+        return "0";
     }
 
     public void bubbleSortByStringLength(String[] a){
