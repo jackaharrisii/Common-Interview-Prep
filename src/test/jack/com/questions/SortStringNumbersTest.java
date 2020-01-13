@@ -107,10 +107,10 @@ public class SortStringNumbersTest {
     }
 
     @Test
-    public void sort_a_list_that_includes_spelled_out_numbers(){
+    public void sort_a_list_and_remove_words_that_arent_numbers(){
         // Given
-        String[] testArray = new String[]{"1", "ten thousand", "5", "11,000", "nine thousand nine hundred and ninety nine", "15", "nine", "4", "a million"};
-        String[] expected = new String[]{"1", "4", "5", "nine", "15", "nine thousand nine hundred and ninety nine", "ten thousand", "11,000", "a million"};
+        String[] testArray = new String[]{"1", "cat", "5"};
+        String[] expected = new String[]{"", "1", "5"};
         // When
         sort.sortStringNumbers(testArray);
         // Then
@@ -118,10 +118,10 @@ public class SortStringNumbersTest {
     }
 
     @Test
-    public void sort_a_list_and_remove_words_that_arent_numbers(){
+    public void sort_a_list_that_includes_spelled_out_numbers(){
         // Given
-        String[] testArray = new String[]{"1", "cat", "5"};
-        String[] expected = new String[]{"1", "5"};
+        String[] testArray = new String[]{"1", "ten thousand", "5", "11,000", "nine thousand nine hundred and ninety nine", "15", "nine", "4", "a million"};
+        String[] expected = new String[]{"1", "4", "5", "nine", "15", "nine thousand nine hundred and ninety nine", "ten thousand", "11,000", "a million"};
         // When
         sort.sortStringNumbers(testArray);
         // Then
@@ -280,7 +280,64 @@ public class SortStringNumbersTest {
 
     @Test
     public void removeNonNumberWords_simple(){
+        // Given
+        String[] test = {"3", "cat", "5"};
+        String[] expected = {"3", "", "5"};
+        // When
+        test = sort.replaceNonNumberWords(test);
+        // Then
+        assertArrayEquals(expected, test);
+    }
 
+    @Test
+    public void removeNonNumberWords_all_original_data_valid(){
+        // Given
+        String[] test = {"3", "5"};
+        String[] expected = {"3", "5"};
+        // When
+        test = sort.replaceNonNumberWords(test);
+        // Then
+        assertArrayEquals(expected, test);
+    }
+
+    @Test
+    public void aNumber_using_number(){
+        // Given
+        String test = "9";
+        // Then
+        assertTrue(sort.aNumber(test));
+    }
+
+    @Test
+    public void aNumber_using_word(){
+        // Given
+        String test = "cat";
+        // Then
+        assertFalse(sort.aNumber(test));
+    }
+
+    @Test
+    public void aNumber_using_mixed_letters_and_numbers(){
+        // Given
+        String test = "9aQ";
+        // Then
+        assertFalse(sort.aNumber(test));
+    }
+
+    @Test
+    public void aNumber_using_negative_number(){
+        // Given
+        String test = "-9";
+        // Then
+        assertTrue(sort.aNumber(test));
+    }
+
+    @Test
+    public void aNumber_using_decimal(){
+        // Given
+        String test = "9.5";
+        // Then
+        assertTrue(sort.aNumber(test));
     }
 
 }

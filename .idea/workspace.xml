@@ -80,22 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckArrayForSumTest.return_null_when_value_isnt_there_using_hashtable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Common Interview Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jack.com.questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jack.com.questions" />
-      <option name="MAIN_CLASS_NAME" value="jack.com.questions.CheckArrayForSumTest" />
-      <option name="METHOD_NAME" value="return_null_when_value_isnt_there_using_hashtable" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortStringNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Common Interview Prep" />
       <extension name="coverage">
@@ -127,6 +111,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortStringNumbersTest.removeNonNumberWords_all_original_data_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Common Interview Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jack.com.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jack.com.questions" />
+      <option name="MAIN_CLASS_NAME" value="jack.com.questions.SortStringNumbersTest" />
+      <option name="METHOD_NAME" value="removeNonNumberWords_all_original_data_valid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortStringNumbersTest.sort_a_normal_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Common Interview Prep" />
       <extension name="coverage">
@@ -145,18 +145,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CheckArrayForSumTest" />
-      <item itemvalue="JUnit.CheckArrayForSumTest.return_null_when_value_isnt_there_using_hashtable" />
       <item itemvalue="JUnit.SortStringNumbersTest" />
       <item itemvalue="JUnit.SortStringNumbersTest.sort_a_normal_list" />
       <item itemvalue="JUnit.SortStringNumbersTest.removeLeadingZeroes_normal" />
+      <item itemvalue="JUnit.SortStringNumbersTest.removeNonNumberWords_all_original_data_valid" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SortStringNumbersTest" />
+        <item itemvalue="JUnit.SortStringNumbersTest.removeNonNumberWords_all_original_data_valid" />
         <item itemvalue="JUnit.SortStringNumbersTest.removeLeadingZeroes_normal" />
         <item itemvalue="JUnit.SortStringNumbersTest.sort_a_normal_list" />
         <item itemvalue="JUnit.CheckArrayForSumTest" />
-        <item itemvalue="JUnit.CheckArrayForSumTest.return_null_when_value_isnt_there_using_hashtable" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578849383933</updated>
-      <workItem from="1578849388167" duration="24021000" />
+      <workItem from="1578849388167" duration="28361000" />
     </task>
     <servers />
   </component>
@@ -198,22 +198,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="404" y="247" width="500" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578855708692" />
-    <state width="1237" height="115" key="GridCell.Tab.0.bottom" timestamp="1578876266832">
+    <state width="1237" height="112" key="GridCell.Tab.0.bottom" timestamp="1578881017617">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="115" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578876266832" />
-    <state width="1237" height="115" key="GridCell.Tab.0.center" timestamp="1578876266832">
+    <state width="1237" height="112" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578881017617" />
+    <state width="1237" height="112" key="GridCell.Tab.0.center" timestamp="1578881017617">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="115" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578876266832" />
-    <state width="1237" height="115" key="GridCell.Tab.0.left" timestamp="1578876266831">
+    <state width="1237" height="112" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578881017617" />
+    <state width="1237" height="112" key="GridCell.Tab.0.left" timestamp="1578881017617">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="115" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578876266831" />
-    <state width="1237" height="115" key="GridCell.Tab.0.right" timestamp="1578876266832">
+    <state width="1237" height="112" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578881017617" />
+    <state width="1237" height="112" key="GridCell.Tab.0.right" timestamp="1578881017617">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="115" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578876266832" />
+    <state width="1237" height="112" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578881017617" />
     <state width="1237" height="127" key="GridCell.Tab.1.bottom" timestamp="1578871869118">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

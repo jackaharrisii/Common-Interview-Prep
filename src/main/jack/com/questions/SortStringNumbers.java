@@ -10,11 +10,13 @@ Edge Cases:
 - leading zeroes
 - decimals
 
-Very Edge Cases and Data Validation:
-- remove words from array which are not numbers, i.e., {"1", "cat", "5"} returns {"1", "5"}
+Bleeding Edge Case and Data Validation:
+- replace words from array which are not numbers with a blank string "", i.e., {"1", "cat", "5"} returns {"", "1", "5"}
 - number is spelled out ("nine" instead of "9") <- not sure how to get this one so far, but probably a really thorough regex.....
 
 */
+
+import java.util.ArrayList;
 
 public class SortStringNumbers {
 
@@ -31,7 +33,7 @@ public class SortStringNumbers {
 
     // Strategy - use insertion sort this time, but with a custom comparator
     public void sortStringNumbers(String[] values){
-        values = removeNonNumberWords(values);
+        values = replaceNonNumberWords(values);
         for (int i = 1; i < values.length; i++){
             String current = values[i];                           // current represents the value that is moving
             int j =i-1;                                           // j represents the index of the next value to compare current against
@@ -74,8 +76,16 @@ public class SortStringNumbers {
 
     // SUB-METHODS FOR THE ABOVE METHODS
 
-    public String[] removeNonNumberWords(String[] input){
+    public String[] replaceNonNumberWords(String[] input){
+        for (int i = 0; i < input.length; i++){
+            if (!aNumber(input[i])) input[i] = "";
+        }
         return input;
+    }
+
+    public Boolean aNumber(String input){
+        if (input.matches("-?\\d+\\.?\\d*")) return true;
+        else return false;
     }
 
     public Boolean currentIsLonger(String current, String previous){
