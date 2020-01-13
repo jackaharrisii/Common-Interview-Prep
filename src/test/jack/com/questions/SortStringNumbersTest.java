@@ -117,6 +117,17 @@ public class SortStringNumbersTest {
         assertArrayEquals(expected,testArray);
     }
 
+    @Test
+    public void sort_a_list_and_remove_words_that_arent_numbers(){
+        // Given
+        String[] testArray = new String[]{"1", "cat", "5"};
+        String[] expected = new String[]{"1", "5"};
+        // When
+        sort.sortStringNumbers(testArray);
+        // Then
+        assertArrayEquals(expected,testArray);
+    }
+
     /*
      SUB-METHOD TESTS:
      */
@@ -196,6 +207,80 @@ public class SortStringNumbersTest {
         test = sort.removeLeadingZeroes(test);
         // Then
         assertEquals(expected, test);
+    }
+
+    @Test
+    public void currentIsLonger_when_no_decimals(){
+        // Given
+        String current = "17";
+        String previous = "7";
+        // Then
+        assertTrue(sort.currentIsLonger(current, previous));
+    }
+
+    @Test
+    public void currentIsShorter_when_no_decimals(){
+        // Given
+        String current = "17";
+        String previous = "7";
+        // Then
+        assertFalse(sort.currentIsShorter(current, previous));
+    }
+
+    @Test
+    public void currentIsLonger_with_decimals(){
+        // Given
+        String current = "17.05";
+        String previous = "3.14159";
+        // Then
+        assertTrue(sort.currentIsLonger(current, previous));
+    }
+
+    @Test
+    public void currentIsShorter_with_decimals(){
+        // Given
+        String current = "17.05";
+        String previous = "3.14159";
+        // Then
+        assertFalse(sort.currentIsShorter(current, previous));
+    }
+
+    @Test
+    public void removeDecimals_from_positive_number(){
+        // Given
+        String test = "3.14159";
+        String expected = "3";
+        // When
+        test = sort.removeDecimals(test);
+        // Then
+        assertEquals(expected, test);
+    }
+
+    @Test
+    public void removeDecimals_from_negative_number(){
+        // Given
+        String test = "-3.14159";
+        String expected = "-3";
+        // When
+        test = sort.removeDecimals(test);
+        // Then
+        assertEquals(expected, test);
+    }
+
+    @Test
+    public void removeDecimals_with_extra_decimals(){
+        // Given
+        String test = "3.14.159";
+        String expected = "3";
+        // When
+        test = sort.removeDecimals(test);
+        // Then
+        assertEquals(expected, test);
+    }
+
+    @Test
+    public void removeNonNumberWords_simple(){
+
     }
 
 }
