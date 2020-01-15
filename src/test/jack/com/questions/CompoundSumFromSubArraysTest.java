@@ -51,7 +51,7 @@ public class CompoundSumFromSubArraysTest {
         // When
         Integer actual = compoundSumFromSubArrays.solveWithForLoops(test);
         // Then
-        assertNotEquals(expected, actual);
+        assertTrue(actual < 0);  // stored as a negative number when integer overflows
     }
 
     @Test
@@ -95,7 +95,7 @@ public class CompoundSumFromSubArraysTest {
         // When
         Integer actual = compoundSumFromSubArrays.solveWithMath(test);
         // Then
-        assertNotEquals(expected, actual);
+        assertTrue(actual < 0);  // stored as a negative number when integer overflows
     }
 
     @Test

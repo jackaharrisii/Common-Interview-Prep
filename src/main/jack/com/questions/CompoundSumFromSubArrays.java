@@ -3,6 +3,7 @@ package jack.com.questions;
 /*
 Given: an array of numbers
 Task: add up the sums of all possible sub arrays
+
 Example: {1, 2, 3, 4}
 +1
 +1+2
@@ -17,14 +18,12 @@ Example: {1, 2, 3, 4}
 =50
  */
 
-import java.math.BigInteger;
-
 public class CompoundSumFromSubArrays {
 
 /*  FIRST SOLUTION I ATTEMPTED ON HACKERRANK
 this was question 19 on the Zip Code admissions assessment
 I passed 5 tests out of 13, because the processing time was too slow
-don't do this
+*** please don't try to solve the problem this way ***
  */
     public Integer solveWithForLoops(Integer[] input){
         Integer sum = 0;
@@ -40,7 +39,8 @@ don't do this
 
 /*
 THIS WAS MY SECOND SOLUTION ON HACKERRANK
-when I realized that HackerRank allows you to put a restriction on processing time,
+when I realized that HackerRank allows the tester to put a restriction on processing time,
+it became clear why I was failing tests.
 I got out some scratch paper and figured out that there is a pattern to the number of occurrences for each number
 1 - the occurrences are on a bell curve
 2 - further, the occurrences are palindromic
