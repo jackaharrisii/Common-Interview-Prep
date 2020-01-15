@@ -42,8 +42,8 @@ don't do this
 THIS WAS MY SECOND SOLUTION ON HACKERRANK
 when I realized that HackerRank allows you to put a restriction on processing time,
 I got out some scratch paper and figured out that there is a pattern to the number of occurrences for each number
-1 - the occurences are on a bell curve
-2 - further, the occurences are pallindromatic
+1 - the occurrences are on a bell curve
+2 - further, the occurrences are palindromic
 I figured out the formula below:
  */
 
@@ -67,7 +67,7 @@ It wasn't until after starting Zip Code that I found out that Integers have a ma
     }
 
 /*
-Run the tests and look at the processing times
+To quantify the difference in efficiency, run the tests and look at the processing times
 I'm looking at:
 nested for loops with 500 numbers - 142 ms
 nested for loops with 1000 numbers - 921 ms
