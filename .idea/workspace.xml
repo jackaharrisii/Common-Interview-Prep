@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="204f9921-cbc3-4b13-a1c3-942dda7d9600" name="Default Changelist" comment="" />
+    <list default="true" id="204f9921-cbc3-4b13-a1c3-942dda7d9600" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jack/com/questions/CloningRobots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jack/com/questions/CloningRobots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jack/com/questions/CompoundSumFromSubArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jack/com/questions/CompoundSumFromSubArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/jack/com/questions/CloningRobotsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/jack/com/questions/CloningRobotsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/jack/com/questions/CompoundSumFromSubArraysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/jack/com/questions/CompoundSumFromSubArraysTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,16 +66,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Common Interview Prep">
-    <configuration name="All in Common Interview Prep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Common Interview Prep" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseAnIntegerUsingOnlyMathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CloningRobotsTest">
+    <configuration name="CloningRobotsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Common Interview Prep" />
       <extension name="coverage">
         <pattern>
@@ -78,13 +76,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jack.com.questions" />
-      <option name="MAIN_CLASS_NAME" value="jack.com.questions.ReverseAnIntegerUsingOnlyMathTest" />
+      <option name="MAIN_CLASS_NAME" value="jack.com.questions.CloningRobotsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortStringNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompoundSumFromSubArraysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Common Interview Prep" />
       <extension name="coverage">
         <pattern>
@@ -93,13 +91,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jack.com.questions" />
-      <option name="MAIN_CLASS_NAME" value="jack.com.questions.SortStringNumbersTest" />
+      <option name="MAIN_CLASS_NAME" value="jack.com.questions.CompoundSumFromSubArraysTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortStringNumbersTest.removeLeadingZeroes_normal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompoundSumFromSubArraysTest.test_the_basic_nested_for_loops_with_1000_numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Common Interview Prep" />
       <extension name="coverage">
         <pattern>
@@ -108,14 +106,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jack.com.questions" />
-      <option name="MAIN_CLASS_NAME" value="jack.com.questions.SortStringNumbersTest" />
-      <option name="METHOD_NAME" value="removeLeadingZeroes_normal" />
+      <option name="MAIN_CLASS_NAME" value="jack.com.questions.CompoundSumFromSubArraysTest" />
+      <option name="METHOD_NAME" value="test_the_basic_nested_for_loops_with_1000_numbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortStringNumbersTest.removeNonNumberWords_all_original_data_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompoundSumFromSubArraysTest.test_the_basic_nested_for_loops_with_500_numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Common Interview Prep" />
       <extension name="coverage">
         <pattern>
@@ -124,27 +122,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jack.com.questions" />
-      <option name="MAIN_CLASS_NAME" value="jack.com.questions.SortStringNumbersTest" />
-      <option name="METHOD_NAME" value="removeNonNumberWords_all_original_data_valid" />
+      <option name="MAIN_CLASS_NAME" value="jack.com.questions.CompoundSumFromSubArraysTest" />
+      <option name="METHOD_NAME" value="test_the_basic_nested_for_loops_with_500_numbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompoundSumFromSubArraysTest.test_the_basic_nested_for_loops_with_larger_array" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Common Interview Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jack.com.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jack.com.questions" />
+      <option name="MAIN_CLASS_NAME" value="jack.com.questions.CompoundSumFromSubArraysTest" />
+      <option name="METHOD_NAME" value="test_the_basic_nested_for_loops_with_larger_array" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SortStringNumbersTest" />
-      <item itemvalue="JUnit.SortStringNumbersTest.removeLeadingZeroes_normal" />
-      <item itemvalue="JUnit.SortStringNumbersTest.removeNonNumberWords_all_original_data_valid" />
-      <item itemvalue="JUnit.All in Common Interview Prep" />
-      <item itemvalue="JUnit.ReverseAnIntegerUsingOnlyMathTest" />
+      <item itemvalue="JUnit.CompoundSumFromSubArraysTest.test_the_basic_nested_for_loops_with_larger_array" />
+      <item itemvalue="JUnit.CompoundSumFromSubArraysTest.test_the_basic_nested_for_loops_with_500_numbers" />
+      <item itemvalue="JUnit.CompoundSumFromSubArraysTest.test_the_basic_nested_for_loops_with_1000_numbers" />
+      <item itemvalue="JUnit.CompoundSumFromSubArraysTest" />
+      <item itemvalue="JUnit.CloningRobotsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Common Interview Prep" />
-        <item itemvalue="JUnit.SortStringNumbersTest" />
-        <item itemvalue="JUnit.ReverseAnIntegerUsingOnlyMathTest" />
-        <item itemvalue="JUnit.SortStringNumbersTest.removeNonNumberWords_all_original_data_valid" />
-        <item itemvalue="JUnit.SortStringNumbersTest.removeLeadingZeroes_normal" />
+        <item itemvalue="JUnit.CloningRobotsTest" />
+        <item itemvalue="JUnit.CompoundSumFromSubArraysTest" />
+        <item itemvalue="JUnit.CompoundSumFromSubArraysTest.test_the_basic_nested_for_loops_with_1000_numbers" />
+        <item itemvalue="JUnit.CompoundSumFromSubArraysTest.test_the_basic_nested_for_loops_with_500_numbers" />
+        <item itemvalue="JUnit.CompoundSumFromSubArraysTest.test_the_basic_nested_for_loops_with_larger_array" />
       </list>
     </recent_temporary>
   </component>
@@ -170,8 +184,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578849383933</updated>
-      <workItem from="1578849388167" duration="31290000" />
-      <workItem from="1578952808155" duration="1511000" />
+      <workItem from="1578849388167" duration="40681000" />
     </task>
     <servers />
   </component>
@@ -179,34 +192,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578851794509">
+    <state x="9" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579096929908">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578851794509" />
+    <state x="9" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579096929908" />
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1579100193181">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579100193181" />
     <state x="404" y="247" width="500" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578855708692">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="404" y="247" width="500" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578855708692" />
-    <state width="1326" height="96" key="GridCell.Tab.0.bottom" timestamp="1579210506960">
-      <screen x="0" y="0" width="1368" height="912" />
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom" timestamp="1579100492632">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="112" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578889678045" />
-    <state width="1326" height="96" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1579210506960" />
-    <state width="1326" height="96" key="GridCell.Tab.0.center" timestamp="1579210506960">
-      <screen x="0" y="0" width="1368" height="912" />
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579100492632" />
+    <state width="1237" height="154" key="GridCell.Tab.0.center" timestamp="1579100492632">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="112" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578889678045" />
-    <state width="1326" height="96" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1579210506960" />
-    <state width="1326" height="96" key="GridCell.Tab.0.left" timestamp="1579210506959">
-      <screen x="0" y="0" width="1368" height="912" />
+    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579100492632" />
+    <state width="1237" height="154" key="GridCell.Tab.0.left" timestamp="1579100492632">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="112" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578889678045" />
-    <state width="1326" height="96" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1579210506959" />
-    <state width="1326" height="96" key="GridCell.Tab.0.right" timestamp="1579210506960">
-      <screen x="0" y="0" width="1368" height="912" />
+    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579100492632" />
+    <state width="1237" height="154" key="GridCell.Tab.0.right" timestamp="1579100492632">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="112" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578889678045" />
-    <state width="1326" height="96" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1579210506960" />
+    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579100492632" />
     <state width="1237" height="127" key="GridCell.Tab.1.bottom" timestamp="1578871869118">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -231,10 +244,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="376" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578850773923" />
-    <state x="412" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578888763081">
+    <state x="412" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579100245512">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="412" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578888763081" />
+    <state x="412" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579100245512" />
     <state x="303" y="41" key="search.everywhere.popup" timestamp="1578849954759">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
