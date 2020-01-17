@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="204f9921-cbc3-4b13-a1c3-942dda7d9600" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common Interview Prep.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Common Interview Prep/jack/com/questions/CloningRobots.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Common Interview Prep/jack/com/questions/RectanglesOnAPlane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Common Interview Prep/jack/com/questions/ReverseAnIntegerUsingOnlyMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Common Interview Prep/jack/com/questions/Sorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Common Interview Prep/main/jack/com/questions/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Common Interview Prep/META-INF/Common Interview Prep.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Common Interview Prep/jack/com/questions/ReverseAnIntegerUsingOnlyMathTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Common Interview Prep/jack/com/questions/SortStringNumbersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jack/com/questions/CloningRobots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jack/com/questions/CloningRobots.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +191,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578849383933</updated>
-      <workItem from="1578849388167" duration="42689000" />
+      <workItem from="1578849388167" duration="43202000" />
     </task>
     <servers />
   </component>
@@ -199,38 +211,38 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="404" y="247" width="500" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578855708692" />
-    <state width="1237" height="154" key="GridCell.Tab.0.bottom" timestamp="1579107667359">
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom" timestamp="1579230620088">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579107667359" />
-    <state width="1237" height="154" key="GridCell.Tab.0.center" timestamp="1579107667359">
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579230620088" />
+    <state width="1237" height="154" key="GridCell.Tab.0.center" timestamp="1579230620088">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579107667359" />
-    <state width="1237" height="154" key="GridCell.Tab.0.left" timestamp="1579107667343">
+    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579230620088" />
+    <state width="1237" height="154" key="GridCell.Tab.0.left" timestamp="1579230620088">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579107667343" />
-    <state width="1237" height="154" key="GridCell.Tab.0.right" timestamp="1579107667359">
+    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579230620088" />
+    <state width="1237" height="154" key="GridCell.Tab.0.right" timestamp="1579230620088">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579107667359" />
-    <state width="1237" height="127" key="GridCell.Tab.1.bottom" timestamp="1578871869118">
+    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579230620088" />
+    <state width="1237" height="127" key="GridCell.Tab.1.bottom" timestamp="1579230619912">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.1.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578871869118" />
-    <state width="1237" height="127" key="GridCell.Tab.1.center" timestamp="1578871869118">
+    <state width="1237" height="127" key="GridCell.Tab.1.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579230619912" />
+    <state width="1237" height="127" key="GridCell.Tab.1.center" timestamp="1579230619912">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.1.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578871869118" />
-    <state width="1237" height="127" key="GridCell.Tab.1.left" timestamp="1578871869118">
+    <state width="1237" height="127" key="GridCell.Tab.1.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579230619912" />
+    <state width="1237" height="127" key="GridCell.Tab.1.left" timestamp="1579230619912">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.1.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578871869118" />
-    <state width="1237" height="127" key="GridCell.Tab.1.right" timestamp="1578871869118">
+    <state width="1237" height="127" key="GridCell.Tab.1.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579230619912" />
+    <state width="1237" height="127" key="GridCell.Tab.1.right" timestamp="1579230619912">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.1.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1578871869118" />
+    <state width="1237" height="127" key="GridCell.Tab.1.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579230619912" />
     <state x="452" y="140" key="chooseDestDirectoryDialog" timestamp="1578856943730">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
