@@ -1,2 +1,1 @@
-"# Common-Interview-Prep" 
-"# Common-Interview-Prep" 
+Moved files to "Whiteboard Problems" repo
